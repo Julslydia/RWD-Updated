@@ -47,6 +47,7 @@ a {
 
 .container {
   margin: auto;
+  width: 960px;
 }
 
 /* NAVBAR & HEADER */
@@ -124,7 +125,7 @@ a {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   .landing-page .wrapper {
     display: flex;
     height: 100%;
@@ -133,16 +134,16 @@ a {
     justify-content: center;
     padding-left: 15px;
   }
-}
+} */
 
-/* .landing-page {
+.landing-page {
   display: flex;
   height: 100%;
   position: relative;
   flex-direction: column;
   justify-content: center;
-  padding-left: 26rem;
-} */
+  padding-left: 15px;
+}
 
 .landing-page_h {
   text-align: left;
@@ -312,7 +313,7 @@ a {
 /* TABLET */
 @media screen and (max-width: 576px) {
   .box {
-    width: 80%;
+    width: 50%;
     /* height: 40%; */
     margin: 30px;
   }
@@ -337,7 +338,7 @@ a {
 @media screen and (min-width: 992px) {
   .box {
     width: 25%;
-    margin: 40px;
+    margin: 30px;
   }
 }
 
