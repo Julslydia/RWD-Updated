@@ -48,6 +48,7 @@ a {
 .container {
   margin: auto;
 }
+
 /* NAVBAR & HEADER */
 
 .navbar-split {
@@ -123,14 +124,25 @@ a {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-.landing-page {
+@media screen and (max-width: 576px) {
+  .landing-page .wrapper {
+    display: flex;
+    height: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+  }
+}
+
+/* .landing-page {
   display: flex;
   height: 100%;
   position: relative;
   flex-direction: column;
   justify-content: center;
-  padding-left: 15px;
-}
+  padding-left: 26rem;
+} */
 
 .landing-page_h {
   text-align: left;
